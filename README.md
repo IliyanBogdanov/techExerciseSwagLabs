@@ -11,7 +11,7 @@ To run the tests locally, follow these steps:
 # Clone this repository to your local machine.
 # Install Node.js if you haven't already (https://nodejs.org/).
 # Install dependencies by running npm install in the project directory.
-# Run the tests using the command: `npx playwright test loginPageTests.spec.ts --headed`
+# Run the tests using the command: `npx playwright test --headed`
 # Run the report generation command: `npx playwright show-report`
 # Multiple tests are being executed in parallel
 
