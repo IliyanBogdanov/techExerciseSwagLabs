@@ -8,15 +8,15 @@ This repository contains Playwright test scripts for automating tests on the Swa
 # Getting Started
 To run the tests locally, follow these steps:
 
-# Clone this repository to your local machine.
-# Install Node.js if you haven't already (https://nodejs.org/).
-# Install dependencies by running npm install in the project directory.
-# Run the tests using the command: `npx playwright test --headed`
-# Run the report generation command: `npx playwright show-report`
-# Multiple tests are being executed in parallel
+- Clone this repository to your local machine.
+- Install Node.js if you haven't already (https://nodejs.org/).
+- Install dependencies by running npm install in the project directory.
+- Run the tests using the command: `npx playwright test --headed`
+- Run the report generation command: `npx playwright show-report`
+- Multiple tests are being executed in parallel
 
-# loginPageTests.spec.ts - login tests
-# onlineStorePageTests.spec.ts - online store tests
+- loginPageTests.spec.ts - login tests
+- onlineStorePageTests.spec.ts - online store tests
 - all scenarios related with the provided users are covered
 
 # Additional Information
