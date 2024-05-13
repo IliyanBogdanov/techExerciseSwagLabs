@@ -1,0 +1,15 @@
+{
+  "name": "techexerciseswaglabs",
+  "version": "1.0.0",
+  "description": "Automated test cases for an online shop to test the core functionality of the site - https://qa-challenge.codesubmit.io/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.44.0"
+  }
+}
