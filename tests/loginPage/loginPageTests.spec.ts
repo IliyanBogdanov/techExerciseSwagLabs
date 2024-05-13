@@ -1,9 +1,8 @@
-// test.spec.ts
 import { expect, test } from '@playwright/test';
 import * as userCredentials from '../../user-credentials.json';
 import { USERNAME_FIELD_SELECTOR, PASSWORD_FIELD_SELECTOR, LOGIN_BUTTON_SELECTOR, INVENTORY_LIST, VALIDATION_MESSAGE_ERROR } from './loginPageElements';
 
-test.describe('Swag Labs QA Automation Test Suite', () => {
+test.describe('Login Page Tests', () => {
 
     test('Successful login - users[0]', async ({ page }) => {
 
