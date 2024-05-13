@@ -13,12 +13,14 @@ To run the tests locally, follow these steps:
 # Install dependencies by running npm install in the project directory.
 # Run the tests using the command: `npx playwright test loginPageTests.spec.ts --headed`
 # Run the report generation command: `npx playwright show-report`
+# Multiple tests are being executed in parallel
 
 # Test Suite
-The test suite Swag Labs QA Automation Test Suite includes the following test:
 
 - Successful login
 This test case navigates to the Swag Labs website, logs in using the credentials from the user-credentials.json file, and verifies that the inventory list is visible after successful login.
+
+- 
 
 # Additional Information
 This project uses TypeScript for writing tests and Playwright Test framework for test execution.
