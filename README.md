@@ -3,7 +3,7 @@ Automated test cases for an online shop to test the core functionality of the si
 
 # Playwright Test Automation README
 Introduction
-This repository contains Playwright test scripts for automating tests on the Swag Labs website. Playwright is a powerful tool for automating web browser interactions, and these tests demonstrate its usage in a real-world scenario.
+This repository contains Playwright test scripts for automating tests on the Swag Labs website. 
 
 # Getting Started
 To run the tests locally, follow these steps:
@@ -15,27 +15,14 @@ To run the tests locally, follow these steps:
 # Run the report generation command: `npx playwright show-report`
 # Multiple tests are being executed in parallel
 
-# Test Suite
-
-- Successful login
-This test case navigates to the Swag Labs website, logs in using the credentials from the user-credentials.json file, and verifies that the inventory list is visible after successful login.
-
-- 
+# loginPageTests.spec.ts - login tests
+# onlineStorePageTests.spec.ts - online store tests
+- all scenarios related with the provided users are covered
 
 # Additional Information
 This project uses TypeScript for writing tests and Playwright Test framework for test execution.
 Test files are located in the tests/ directory.
-Page elements and selectors are defined in the loginPageElements.ts file.
+Page elements and selectors are defined in the loginPageElements.ts file and onlineStorePageElements.ts 
 
 # Contributors
-Iliyan Bogdanov - Lead Developer
-
-
-# Evaluation Criteria
-- Automation & QA best practices
-- Show us your work through your commit history
-- We're looking for you to produce working code, with enough room to demonstrate how to structure
-components in a small program
-- Completeness: did you complete the features?
-- Correctness: does the functionality act in sensible, thought-out ways?
-- Maintainability: is it written in a clean, maintainable way?
+Iliyan Bogdanov - SDET
